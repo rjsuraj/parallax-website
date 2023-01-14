@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 p{
@@ -40,7 +41,7 @@ p{
 }
 
 .background {
-    transform: translateZ(-10px) scale(2);
+    transform: translateZ(-10px) scale(2.1);
 }
 
 .foreground {
@@ -59,17 +60,57 @@ p{
 
 .heading{
     font-size: 5rem;
-    padding: 70px 200px;
+    padding: 70px 200px 0 200px;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
 }
 
 .content {
-    padding: 0px 200px 50px 200px;
-    
+    padding: 70px 200px 50px 200px;
 }
 
 section{
     background-color: #333;
     color: white;
+}
+
+.sport-1{
+    background-image: url("/images/sport-1.jpg");
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.sport-2{
+    background-image: url("/images/sport-2.jpg");
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.sport-3{
+    background-image: url("/images/sport-3.jpg");
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.sport-name{
+    font-size: 3.5rem;
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding: 10px 20px;
+    scroll-behavior: smooth;
 }
